@@ -1,0 +1,3 @@
+rootProject.name = rootProject.projectDir.getName()
+include 'atc.shared'
+project(':atc.shared').projectDir = file('../atc.shared')
